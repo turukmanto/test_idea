@@ -3,7 +3,7 @@ package Nov_24_11_23;
 public class Fibonacci {
     public static void main(String[] args){
 
-        int n = 100;
+        int n = 60;
         int y = 1;
 
         for (int i = 0; i <= 100;){
