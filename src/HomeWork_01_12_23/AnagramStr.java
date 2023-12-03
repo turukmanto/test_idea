@@ -15,14 +15,14 @@ public class AnagramStr {
         //toCharArray
         //Arrays.sort
 
-        //System.out.println(checkLetters("lipa","apil"));
+        //System.out.println(checkLetters("lipas","apil"));
 
 
 
     //}
        // public static Boolean checkLetters(String str1,String str2){
 
-        String str1 = "pila";
+        String str1 = "pilas";
         String str2 = "alip";
 
 
@@ -32,11 +32,11 @@ public class AnagramStr {
         Arrays.sort(newStr1);
         Arrays.sort(newStr2);
 
-        //System.out.println(Arrays.toString(newStr1));
-        //System.out.println(Arrays.toString(newStr2));
-         System.out.println(Arrays.toString(newStr1).equals(Arrays.toString(newStr2)));
-
-
+        System.out.println(Arrays.toString(newStr1));
+        System.out.println(Arrays.toString(newStr2));
+        System.out.println(Arrays.toString(newStr1).equals(Arrays.toString(newStr2)));
+        //boolean result = Arrays.toString(newStr1).equals(Arrays.toString(newStr2));
+        //return result;
         }
         }
 
