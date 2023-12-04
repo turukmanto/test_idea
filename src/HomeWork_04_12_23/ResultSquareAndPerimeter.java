@@ -12,12 +12,12 @@ public class ResultSquareAndPerimeter {
         //int square = rectangle1.length * rectangle1.width;
 
 
-        System.out.println(rectangle3(3,3));
+        System.out.println(rectangle3(5,4));
 
     }
 
 
-    public static int rectangle3(int length, int wingth) {
+    public static int resSquare(int length, int wingth) {
 
         int res = length * wingth;
 
@@ -25,10 +25,10 @@ public class ResultSquareAndPerimeter {
     }
 
 
-    public static int newPerimeter(int length, int wingth) {
+        public static int resPerimeter(int length, int wingth) {
 
-        int resPerimeter = (length * 2 ) + (wingth * 2);
-        return resPerimeter;
+        int resPerim = (length * 2 ) + (wingth * 2);
+        return resPerime;
 
     }
 
