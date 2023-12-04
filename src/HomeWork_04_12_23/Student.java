@@ -12,6 +12,5 @@ public class Student {
         int ege;
 
 
-        public static class Rectangle {
-        }
+
 }
