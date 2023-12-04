@@ -10,7 +10,7 @@ package HomeWork_01_12_23;
                  //String str = "Hello"
                  //public static String removeCharAtIndex( String str, int index) -> "Helo"
 
-                 System.out.println(removeLetters("abracadabra",  (10)));
+                 System.out.println(removeLetters("abracadabra",  (1)));
              }
 
                  public static String removeLetters(String str,int index){

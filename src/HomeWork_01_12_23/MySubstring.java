@@ -18,6 +18,7 @@ public class MySubstring {
         // char[] str1 = str.toCharArray();
 
         for (int i = 0; i < str.length(); ) {
+        
 
             i++;
             if (i > begin) {
