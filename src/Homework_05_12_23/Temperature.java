@@ -7,12 +7,12 @@ public class Temperature {
    // В классе Main создать несколько обьектов класса Temperature
    // (значение температуры по фаренгейту должно задаваться через конструктор)
     //и вывести результат перевода на экран
-     int fahrenheit;
+     double fahrenheit;
 
-     public Temperature(int fahrenheit){
+     public Temperature(double fahrenheit){
         this.fahrenheit = fahrenheit;
      }
-    int FahrenheitToCelsius(){
+    double FahrenheitToCelsius(){
 
          return  5 * (fahrenheit - 32) / 9;
 
