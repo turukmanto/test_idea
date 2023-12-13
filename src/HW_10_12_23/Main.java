@@ -16,7 +16,7 @@ public class Main {
                          System.out.println("Car found");
                          return;
                           }
-                 System.out.println("There is no such brand, we have it in stock : " + "\nAudi " + "\nBMW " + "\nFord "
+                 System.out.println("There is no such brand, we have it in stock : " +"\nAudi " + "\nBMW " + "\nFord "
                            + "\nHonda" + "\nHyundai" + "\nKia");
     }
 
