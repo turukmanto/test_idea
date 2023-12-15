@@ -15,6 +15,6 @@ public class Rectangle {
     public String  areaRectangle (int a, int b) {
 
             int resAreaRect = a * b ;
-        return "\nRectangle has area of " + resAreaRect;
+        return "Rectangle has area of " + resAreaRect;
     }
 }

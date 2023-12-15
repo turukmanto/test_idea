@@ -27,7 +27,11 @@ public class Main {
 
            String[] figure = {circle.areaCircle(2,2), rectangle.areaRectangle(4,4), square.areaSquare(5,5)};
 
-           System.out.println(Arrays.toString(figure));
+
+           for(String i : figure){
+
+               System.out.println(i);
+           }
 }
 
 

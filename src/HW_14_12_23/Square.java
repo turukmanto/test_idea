@@ -16,6 +16,6 @@ public class Square {
 
         int resAreaSquare = a * b;
 
-        return "\nSquare has area of " + resAreaSquare;
+        return "Square has area of " + resAreaSquare;
     }
 }
