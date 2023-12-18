@@ -29,7 +29,6 @@ public class Main {
 
 
            for(String i : figure){
-
                System.out.println(i);
            }
 }
